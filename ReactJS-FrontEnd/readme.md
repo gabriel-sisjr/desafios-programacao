@@ -1,7 +1,7 @@
 # Desafio ReactJs - Front End
 
 ## Opa, primeiramente, parabéns por estar dando esse passo na sua jornada! É algo realmente muito agregador e espero que esteja tão empolgado quanto eu! Bom, vamos ao projeto! 😀 😀
-#
+
 ### Ele consistirá na criação de controle de despesas, isso mesmo, um controlador de despesas, simples assim!! Porém, como nem tudo são flores, preciso que o projeto obedeça e contenha alguns requisitos, tais como: 
 
 - Ser feito em **ReactJS**.
