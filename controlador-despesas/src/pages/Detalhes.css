@@ -1,0 +1,26 @@
+.despesa-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.despesa-descricao-container {
+    text-align: center;
+    margin: 0.8rem;
+}
+
+.despesa-titulo, .despesa-descricao {
+    margin: 0;
+}
+
+.despesa-img {
+    max-width: 80%;
+    border: 1px solid #f1592b;
+    border-radius: 10px;
+}
+
+@media (min-width: 500px) {
+    .despesa-img {
+        max-width: 300px;
+    }
+}
