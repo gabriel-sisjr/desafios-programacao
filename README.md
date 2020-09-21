@@ -12,4 +12,4 @@
 
 ## Envio do projeto
 
-### Crie sua branch utilizando o padrão **feature/seuNome**, realize um pull request e nós analisaremos 😀
+### Crie sua branch utilizando o padrão **feature/seuNome**, realize um pull request com seu projeto dentro da pasta **Projetos/SeuNome** e nós analisaremos 😀
