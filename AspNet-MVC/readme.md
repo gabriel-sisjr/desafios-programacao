@@ -7,9 +7,11 @@
 - Ser feito em **ASP.NET** ou **ASP.NET Core**.
 - Deverá ser implementada uma camada DDD contendo os repositórios a serem utilizados na estrutura.
 - Os repositórios devem conter recursos que contemplem as informações no *banco de dados*.
-- **DI** e **IoC**. *(Tem que ter né? hehe)* 😀
+- Utilizar **In-memory** para manusear os dados. *("shhh, Vou te dar uma dica pra gerar as classes, mas não conta pra ninguem" Usa: http://json2csharp.com)*
+- **DI** e **IoC**. *(Tem que ter né? hehe)* 😛
 - Deverá ser criada uma VIEW contendo as informações contidas no *banco de dados*. *(Controller MVC deve consultar do repositório).*
-- Utilizar **JSON** abaixo como **“banco de dados”**.
+- Implementar todos os metodos do CRUD. *(Inclui o GetById, pra selecionar alguem especial!)* :heart
+- Persistir um **JSON**, onde o resultado seja similar ao informado abaixo. *(Pode incrementar, tá?! Haha)* 😛
 - Testes unitários (TDD seria um diferencial **MUITO** interessante!! *#FicaADica*)
 
 ------
@@ -24,7 +26,8 @@
     {
       "Curso": "Curso 1",
       "Status": "Concluido/Em Andamento/Trancado",
-      "DataConclusao": "12-12-2019 / 01-01-2014" /* Data prevista caso em andamento*/ 
+      // Data prevista caso em andamento
+      "DataConclusao": "12-12-2019 / 01-01-2014"
     },
     {
       "Curso": "Curso 2",
@@ -36,7 +39,8 @@
   "Experiencia": [
     {
       "Tecnologia": "c#",
-      "TempoExperiencia": 1, /* Em anos */
+      // Em Anos
+      "TempoExperiencia": 1,
       "DetalheExperiencia": "Trabalhei em projeto XYZ, atuando como/responsavel por..."
     },
     {
@@ -50,14 +54,15 @@
       "Empresa": "EmpresaX",
       "Cargo": "Dev Junior",
       "DataInicio":"01-01-2010",
-      "DataFim":"01-01-2012", /* Data atual caso continue na empresa */
+      // Data atual caso continue na empresa
+      "DataFim":"01-01-2012",
       "DetalheExperiencia": "Trabalhei em projeto XYZ, atuando como/responsavel por..."
     },
     {
       "Empresa": "EmpresaX",
       "Cargo": "Dev Junior",
       "DataInicio":"01-01-2010",
-      "DataFim":"01-01-2012", /* Data atual caso continue na empresa */
+      "DataFim":"01-01-2012",
       "DetalheExperiencia": "Trabalhei em projeto XYZ, atuando como/responsavel por..."
     }
   ]
