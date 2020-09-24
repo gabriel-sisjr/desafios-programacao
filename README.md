@@ -6,7 +6,6 @@
 <br />
 
 ### Desafio [**ReactJS - FrontEnd**](https://github.com/gabriel-sisjr/desafios-programacao/tree/master/ReactJS-FrontEnd)
-<br />
 
 ### Desafio [**AspNet - MVC**](https://github.com/gabriel-sisjr/desafios-programacao/tree/master/AspNet-MVC)
 
