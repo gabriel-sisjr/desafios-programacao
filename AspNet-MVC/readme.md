@@ -12,7 +12,7 @@
 - Deverá ser criada uma VIEW contendo as informações contidas no *banco de dados*. *(Controller MVC deve consultar do repositório).*
 - Implementar todos os metodos do CRUD. *(Inclui o GetById, pra selecionar alguem especial!)* :heart:
 - Persistir um **JSON**, onde o resultado seja similar ao informado abaixo. *(Pode incrementar, tá?! Haha)* 😛
-- Testes unitários (TDD seria um diferencial **MUITO** interessante!! *#FicaADica*)
+- Testes unitários (Seria um diferencial **MUITO** interessante!! *#FicaADica*)
 
 ------
 ## Modelo de dados para base.
